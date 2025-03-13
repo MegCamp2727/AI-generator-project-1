@@ -19,7 +19,7 @@ let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${
 
 let cocktailElement = document.querySelector("#cocktail");
 cocktailElement.classList.remove("hidden");
-cocktailElement.innerHTML = `<div class="generating"> ⏳ Generating a cocktail recipe for ${instructionsInput.value}..</div>`;
+cocktailElement.innerHTML = `<div class="generating"> 🍹 Generating a cocktail recipe for ${instructionsInput.value}..</div>`;
 
 axios.get(apiUrl).then(displayCocktail);
 }

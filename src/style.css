@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #c54c82;
+    color: #01776F;
 }
 
 .container {
@@ -28,7 +28,7 @@ h1 {
 }
 
 .form-container {
-    background-color: #ffc1c8;
+    background-color: #94D4CE;
     margin-bottom: 30px;
     padding: 15px 20px;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
@@ -59,7 +59,7 @@ form {
 
 .submit-button {
     margin-left: 10px;
-    background-color: #c54c82;
+    background-color: #01776F;
     color: white;
     border: none;
     border-radius: 50px;
