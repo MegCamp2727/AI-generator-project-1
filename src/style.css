@@ -1,6 +1,8 @@
 body {
-    background-color: #f4aeba;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                background-color: #ffc1c8;
+        background-image: url('colorful-summer-pattern_23-2148609016.jpg');
+        background-size: cover;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -87,6 +89,7 @@ footer {
     text-align: center;
     font-size: 14px;
     margin-top: 30px;
+
 }
 
 .generating {
