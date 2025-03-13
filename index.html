@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <title>AI Cocktail Generator</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Welcome to AI cocktail generator</h1>
+      </header>
+
+      <main>
+        <div class="form-container">
+          <form id="cocktail-generator-form">
+            <input
+              type="text"
+              placeholder="Enter cocktail of choice.."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e. Margarita, Mojito, Old Fashioned</div>
+        </div>
+        <div class="cocktail hidden blink" id="cocktail"></div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/MegCamp2727" target="_blank"> Megan Camp</a>
+        is open-sourced on
+        <a href="" target="_blank">
+          GitHub</a
+        >
+        and is hosted on
+        <a href="" target="_blank">
+          Netlify</a
+        >
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

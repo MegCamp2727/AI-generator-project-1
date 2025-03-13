@@ -1,0 +1,106 @@
+body {
+    background-color: #f4aeba;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+a {
+    color: #c54c82;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+
+}
+
+.form-container {
+    background-color: #ffc1c8;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+}
+
+form {
+
+    display: flex;
+}
+
+.hint {
+    line-height: 1.5;
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.6;
+}
+
+.instructions {
+    padding: 16px;
+    border: 1px solid gray;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: darkred;
+}
+
+.submit-button {
+    margin-left: 10px;
+    background-color: #c54c82;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 24px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.cocktail {
+    font-size: 16px;
+    background-color: #ffc1c8;
+    padding: 20px;
+    line-height: 2;
+    border-left: 3px solid #c54c82;
+    box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+.hidden {
+    display: none;
+}
+
+.cocktail strong {
+    color: #c54c82;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
